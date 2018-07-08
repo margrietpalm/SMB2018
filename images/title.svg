@@ -31,8 +31,8 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.3985185"
-     inkscape:cx="430.09484"
-     inkscape:cy="244.29403"
+     inkscape:cx="430.50713"
+     inkscape:cy="129.88725"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -654,13 +654,14 @@
 <text
        transform="scale(1,-1)"
        id="text5088"
-       y="-17.797529"
-       x="197.70895"
+       y="-41.822952"
+       x="535.78101"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Droid Sans';-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       sodipodi:linespacing="0%"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
-         y="-17.797529"
-         x="197.70895"
+         y="-41.822952"
+         x="535.78101"
          id="tspan5090"
          sodipodi:role="line">m.m.palm@lacdr.leidenuniv.nl</tspan></text>
 <g
@@ -717,4 +718,17 @@
        preserveAspectRatio="none"
        height="57.483047"
        width="188.70804"
-       transform="scale(1,-1)" /></g></svg>
+       transform="scale(1,-1)" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="114.40677"
+       y="-16.694014"
+       id="text4347"
+       sodipodi:linespacing="125%"
+       transform="scale(1,-1)"><tspan
+         sodipodi:role="line"
+         id="tspan4349"
+         x="114.40677"
+         y="-16.694014"
+         style="font-size:16px">margrietpalm.github.io/SMB2018/</tspan></text>
+</g></svg>
