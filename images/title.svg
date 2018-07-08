@@ -30,9 +30,9 @@
      inkscape:window-height="1056"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.98890192"
-     inkscape:cx="367.81931"
-     inkscape:cy="403.83242"
+     inkscape:zoom="1.3985185"
+     inkscape:cx="430.09484"
+     inkscape:cy="244.29403"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -645,7 +645,12 @@
          y="-212.51921"
          x="619.54889"
          sodipodi:role="line"
-         id="tspan1028"> Sydney - July ?th 2018</tspan></text>
+         id="tspan1028"> Sydney</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.75676155px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:1.04204226"
+         y="-189.07326"
+         x="619.54889"
+         sodipodi:role="line"
+         id="tspan4346">July 10th</tspan></text>
 <text
        transform="scale(1,-1)"
        id="text5088"
