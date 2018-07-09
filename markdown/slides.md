@@ -14,7 +14,7 @@ Study intratumoral heterogeneity with barcoding
 
 - construct with random base pair sequence
 
-<img src="images/barcode_vector.svg" width="40%" style="margin-left:80px"/>
+<img src="images/barcode_vector.svg" width="40%" style="display:block"/>
 
 - construct is inserted, e.g. with a virus vector
 
@@ -184,9 +184,7 @@ Matching ABM to *in vitro* results for K562
 ------------------------------------------------------------------
 <img src="images/it_abm_sim_mut_vdivrate_364-484_fit.svg" width="90%" style="float:left"/>
 
-<ul>
-  <li>Results for best fit for Gini coefficient</li>
-</ul>
+Results for best fit for Gini coefficient
 <img src="images/it_abm_sim_mut_vdivrate_364-484_best_fit.svg" width="90%" style="float:left"/>
 
 
