@@ -1,6 +1,6 @@
 Intratumoral heterogeneity
 ----------------------------------------------------------
-<img src="images/jamal-hanjani2015_1ab.png" width=60%/ style="margin-bottom: 0px; display:block">
+<img src="images/jamal-hanjani2015_2.png" width="50%" style="margin-bottom: 0px; display:block">
 <div style="margin-bottom: 20px; font-size: .5em; text-align: center">Image from Jamal-Hanjani *et al.*, Clin. Canc. Res., 2015</div>
 
 - Cells within the same tumor vary:
@@ -37,6 +37,8 @@ Iterated growth & passage experiment
 - Experiment (three biological replicates)
   - Each population grows for 3 days, after which 4&#x22C5;10&#x2076; are present
   - 3&#x22C5;10&#x2075; cells are passed on to the next generation
+  - growth & passages is repeated 30 times
+  - samples taken at passages 10, 20, and 30
 
 <div style=" display: flex; justify-content: center; margin-top:50px">
   <div style="text-align: left; font-size: 55%; width:70%;"/>
@@ -54,16 +56,7 @@ We re-analyzed the experiments from [Porter *et al.* (Gen. Biol., 2014)](https:/
 * K562 cell (chronic myelogenous leukemia cell line)
 * Clones disappear and clonal dominance increases
 
-
-
-Source of intratumoral heterogeneity
------------------------------------------------
-<div style="position:relative; width:100%;  margin-left: auto; margin-right: auto; text-align: center; margin-top: 30px" >
-  <div style="position:absolute;background: white;width:100%;height:600px">
-  <img src="images/CSC_vs_stochastic_vert.svg" width="100%"/>
-  <div style="font-size: .5em; text-align: center; margin-bottom: 20px">Image adapted from https://en.wikipedia.org/wiki/Tumour_heterogeneity</div>
-  </div>
-</div>
+<div class="fragment" style="text-align:center;width:70%;margin:0 auto;margin-top:20px"><b> What mechanism explains clone loss and the development of clonal dominance? <b></div>
 
 
 
@@ -72,7 +65,7 @@ Computational model of simple growth & passage
 <img data-src="images/setup.svg" height="250" style="display:block;"/>
 * Initialization
   * ~12.000 clones with size $c_i$ and $\sum \_i c_i = 3 \cdot 10^5$.
-  * Clone sizes assigned too fit the experimental data.
+  * Clone sizes assigned to fit the experimental data.
 * Growth
   * Each cell grows with a given rate $r_i$
   * Growth continues until $\sum \_i c_i = 4 \cdot 10^6$
@@ -92,11 +85,13 @@ Simulations with stochastic growth & passage
 
 
 
-Test hypotheses for clonal dominance
-------------------------------------------------------------------
+Source of intratumoral heterogeneity
+-----------------------------------------------
 <div style="position:relative; width:100%;  margin-left: auto; margin-right: auto; text-align: center; margin-top: 30px" >
-  <img data-src="images/CSC_vs_stochastic_1.svg" width="100%"/>
+  <div style="position:absolute;background: white;width:100%;height:600px">
+  <img src="images/CSC_vs_stochastic_vert.svg" width="100%"/>
   <div style="font-size: .5em; text-align: center; margin-bottom: 20px">Image adapted from https://en.wikipedia.org/wiki/Tumour_heterogeneity</div>
+  </div>
 </div>
 
 
@@ -137,7 +132,7 @@ Model with cancer stem cells
 
 
 
-Test hypotheses for clonal dominance
+Source of intratumoral heterogeneity
 ------------------------------------------------------------------
 <div style="position:relative; width:100%;  margin-left: auto; margin-right: auto; text-align: center; margin-top: 30px" >
   <img data-src="images/CSC_vs_stochastic_2.svg" width="100%"/>
@@ -177,7 +172,7 @@ Matching ABM to *in vitro* results
 * 3 data sets
   * K562 cells
   * monoclonal K562 cells
-  * HeLA
+  * HeLa
 
 
 Matching ABM to *in vitro* results for K562
@@ -196,7 +191,7 @@ Results for best fit for Gini coefficient
 
 * Less clone loss compared to K562 cell line
 * No development of clonal dominance
-* Expected model paramter changes to match monoclonal K562:
+* Expected model parameter changes to match monoclonal K562:
   * Less initial variation &#x21d2; lower &sigma;<sub>r</sub> than for K562
   * Same cell type &#x21d2; similar &sigma;<sub>m</sub> as with K562
 
