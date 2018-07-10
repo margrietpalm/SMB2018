@@ -254,3 +254,15 @@ Conclusion
   * Model fits well to changes in clone size distribution observed *in vitro*
   * Model predicts same mutation dynamics for polyclonal and monoclonal K562 cells
 * Non-matching clone loss for monoclonal K562 and HeLa may be explained by spurious reads
+
+
+
+What about the ecosystem?
+--------------------------------
+* *In vivo* lineage tracing shows various clone size dynamics
+  <div style="margin-bottom: 0px">
+    <img src="images/zomer2013brief_fig3.png" width="850px"/>  
+	<div style="font-size: .5em; margin-top: -20px; margin-left: 280px; align: left">Image from Zomer <em>et al.</em>, Stem Cells, 2013</div>
+  </div>
+* Current model cannot simulate *in vivo* tumor development - no space
+* Next step - extend this to a spatial model
